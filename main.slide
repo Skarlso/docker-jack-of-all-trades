@@ -1,0 +1,103 @@
+Docker, Jack of all trades
+The versatile runtime environment for software.
+Tags: Go, Docker
+
+Gergely Bräutigam
+Cloud Engineer, Cheppers
+https://gergelybrautigam.com
+@Skarlso
+
+* Agenda
+
+- Introductions
+- Little History
+- Miner
+- Github Actions / My Blog
+- Simple Contained MySQL
+- Docker Swarm / Config / Secrets
+- Kubernetes with Docker containers
+- One off scripts
+
+* Introductions
+
+* Little Histroy
+
+Not the first container, but the best at bringing it to the masses.
+
+* Miner
+
+.image imgs/miner.png
+
+* Dockerfile
+
+.code -edit code/Dockerfile
+
+* 2 years ago
+
+Nothing was automated. Hand copied forge and craftbukkit files.
+
+* Now-a-days
+
+entrypoint.sh copies and downloads
+
+* Github Actions
+
+* Previously on skarlso.github.io
+
+.link https://app.wercker.com/ Wercker
+
+* Used to be enough
+
+But then got bought by Oracle.
+
+* Travis Next
+
+.link https://github.com/Skarlso/blogsource Blog
+
+* Enter Github Actions
+
+.image imgs/github-actions.png
+
+* Dockerfiles
+
+* Blog Builder
+
+.code code/blog-builder.dockerfile
+
+* Blog Publisher
+
+.code code/blog-publisher.dockerfile
+
+* Git push
+
+And everything is published
+
+* Simple Contained MySQL
+
+* Running a Database in a container
+
+Demo
+
+* Docker Swarm / Config / Secrets
+
+* Kubernetes with Docker containers
+
+Using Kube and nginx proxy
+
+* One-off scripts
+
+* Idle RPG
+
+.image imgs/idle.png
+
+* Multi Stage Build
+
+.code code/idle-checker.dockerfile
+
+* Build it
+
+.code code/build.sh
+
+* Run it
+
+.code code/cron.sh
